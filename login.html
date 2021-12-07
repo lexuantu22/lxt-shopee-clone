@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/login.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-between align-items-center header-login">
+            <div class="col-sm-6 col-md-2 col-lg-2 ">
+                    <h3 class="text__heading">
+                        Đăng Nhập
+                    </h3>
+            </div>
+            <div class="col-sm-6 col-md-2 col-lg-2">
+               <a href="">Cần trợ giúp ?</a>            
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid content"> 
+    <div class="row d-flex justify-content-center form-login-header">
+            <div class="col-sm-12 col-md-4 col-lg-3 from-login">     
+                <div class="from-login_content">
+                    <h4 class="text__heading">
+                        Đăng Nhập
+                    </h4>
+                <form action="/action_page.php d-flex justify-content-around">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="usr" name="username" placeholder="Email/Số điện thoại/Tên đăng nhập">
+                </div>
+                <div class="form-group password-input">
+                    <input type="password" class="form-control" id="pwd" name="password" placeholder="Mật khẩu">
+                    <i class="far fa-eye show-password"></i>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                    <label class="form-check-label" for="dropdownCheck">
+                      Nhớ mật khẩu
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-block btn_login">ĐĂNG NHẬP</button>
+                </form>
+                <hr>
+                <p>Bạn mới biết Shoppe?<a class="" href="#"> Đăng kí</a></p>
+                <a class="" href="#">Quên mật khẩu?</a>
+                <hr>
+                <div class="row justify-content-between btn_social col-md-12">
+                    <button type="button" class="btn btn-primary col-12 col-sm-12 "><i class="fab fa-facebook icon"></i>Facebook</button>
+                    <button type="button" class="btn btn-primary col-12 col-sm-12"><i class="fab fa-google icon"></i>Google</button>
+                    <button type="button" class="btn btn-dark col-12 col-sm-12"><i class="fab fa-apple icon"></i>Apple</button>
+                </div>
+              
+            </div>
+            <!-- <div class="auth-from__container">
+                <div class="auth-from__header">
+                    <h3 class="auth-from__heading">
+                        Đăng Nhập
+                    </h3>
+                    <span class="auth-from__switch-btn">
+                        Đăng Ký
+                    </span>
+                </div>
+                <div class="auth-from__from">
+                    <div class="auth-from__group">
+                        <input type="text" class="auth-from__input" placeholder="Email của bạn">
+                    </div>
+                    <div class="auth-from__group">
+                        <input type="text" class="auth-from__input" placeholder="Mật khẩu">
+                    </div>
+                </div>
+                <div class="auth-from__aside">
+                    <div class="auth-from__help">
+                        <a href="" class="auth-from__help-link auth-from__help-forgot">Quên Mật khẩu</a>
+                        <span class="auth-from__help-saparate"></span>
+                        <a href="" class="auth-from__help-link">Cần trợ giúp ?</a>
+                    </div>
+                </div>
+                <div class="auth-from__controls">
+                    <button class="btn left">
+                        TRỞ LẠI
+                    </button>
+                    <button class="btn btn--primary">
+                        ĐĂNG NHẬP
+                    </button>
+                </div>
+                <div class="auth-from__socials ">
+                    <a href="" class="btn btn--with-icon icon__facebook">
+                        <i class="auth-from__socials-icon fab fa-facebook-square"> <span class="text__icon"> Đăng nhập
+                                với Facebook</span></i>
+                    </a>
+                    <a href="" class="btn btn--with-icon icon__google">
+                        <i class="auth-from__socials-icon fab fa-google"><span class="text__icon">Đăng Nhập với
+                                Google</span> </i>
+                    </a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <p class="footer-title">Chăm sóc khách hàng</p>
+                <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link">Shoppe Mail</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item_link">Hướng dẫn mua hàng</a>
+                        </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <p class="footer-title">Danh mục</p>
+                <ul class="footer-list">
+                    <li class="footer-item">
+                        <a href="" class="footer-item_link">Iphon 11 ProMax</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item_link">Iphon 12 ProMax</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item_link">Iphon 13 ProMax</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <p class="footer-title">Theo dõi</p>
+                <ul class="footer-list">
+                    <li class="footer-item">
+
+                        <a href="" class="footer-item_link">
+                            <i class="footer-item__icon fab fa-facebook"></i>
+                            Facebook</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item_link">
+                            <i class="footer-item__icon fab fa-instagram"></i>
+                            Instagram</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="" class="footer-item_link">
+                            <i class="footer-item__icon fab fa-youtube-square"></i>
+                            Youtube</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 col-lg-3 col-sm-6 ">
+                <p class="footer-title">Cửa hàng trên ứng dụng</p>
+              <div class="row">
+                  <img src="./assets/img/qrcode.png" alt="Download QR" class="col-md-6 col-6">
+                  <div class="col-md-6 col-6 download">
+                      <img src="./assets/img/androi.png" alt="Google Play" class="">
+                      <img src="./assets/img/ios.png" alt="Apple " class="">
+                  </div>
+              </div>
+            </div>
+        </div>   
+    </div>
+    <div class="copyright">
+            <p class="text-center">© 2021 - Bản quyền thuộc về Team 6 CIDIO 3</p>
+    </div> 
+</footer>
+<script src="./assets/js/main.js"></script>
+</body>
+
+</html>
